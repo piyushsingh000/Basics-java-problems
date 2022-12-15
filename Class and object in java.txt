@@ -1,0 +1,17 @@
+class Hero {
+    int age;
+    String name;
+}
+
+public class Main {
+    public static void main (String args[]){
+      Hero h1 = new Hero();
+      h1.age = 10;
+      h1.name = "Piyush";
+      System.out.println(h1.age);
+            System.out.println(h1.name);
+
+      
+    }
+    
+}
